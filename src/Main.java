@@ -78,7 +78,6 @@ public class Main {
                 for (int j = 0; j < numbers.length; j++) {
                     if (numbers[j] == dataFracArray[i]) {
                         numberValue = j;
-                        System.out.println(numberValue);
                     }
                 }
                 res10Frac += numberValue * Math.pow(p, -i - 1);
@@ -91,7 +90,6 @@ public class Main {
                 sb2.append(numbers[((int) res10Frac)]);
             }
             String numberQFrac = sb2.toString();
-            System.out.println(numberQFrac);
 
             if (hasMinus) {
                 numberQInt = "-" + numberQInt;
